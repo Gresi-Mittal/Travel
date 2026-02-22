@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelFlow | Premium Global Adventures</title>
+    
+    <!-- Google Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="#home" class="logo"><i class="fas fa-paper-plane"></i> Travel<span>Flow</span></a>
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#destinations">Destinations</a>
+                <a href="#packages">Packages</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="nav-btns">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <a href="#contact" class="btn-sm">Book Now</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home-content" data-aos="fade-up">
+            <h3>Explore The Most Beautiful</h3>
+            <h1>Places in <span id="typed"></span></h1>
+            <p>TravelFlow ke saath apne sapno ka safar shuru karein. Hum dete hain aapko luxury hotels, expert guides aur pocket-friendly packages.</p>
+            <div class="home-btns">
+                <a href="#packages" class="btn">View Packages</a>
+                <a href="#destinations" class="btn btn-white">Popular Places</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container grid-2">
+            <div class="about-img" data-aos="fade-right">
+                <img src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?auto=format&fit=crop&w=800" alt="Travel">
+            </div>
+            <div class="about-text" data-aos="fade-left">
+                <span class="badge">Who We Are</span>
+                <h2>10 Years of Making Dreams Possible</h2>
+                <p>Hum sirf tour operators nahi hain, hum travel enthusiasts hain. 2014 se humne 10,000+ happy clients ko unki dream destinations tak pahunchaya hai.</p>
+                <div class="about-features">
+                    <div class="feat"><i class="fas fa-check-circle"></i> 100% Safe Travel</div>
+                    <div class="feat"><i class="fas fa-check-circle"></i> Best Price Guarantee</div>
+                    <div class="feat"><i class="fas fa-check-circle"></i> Expert Local Guides</div>
+                </div>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. SERVICES SECTION -->
+    <section class="services" id="services">
+        <div class="container">
+            <h1 class="heading" data-aos="fade-up">Our <span>Services</span></h1>
+            <div class="grid-3">
+                <div class="box" data-aos="zoom-in">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Luxury Hotels</h3>
+                    <p>Hamari partner hotels mein aapko milti hai premium hospitality aur world-class comfort.</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fas fa-plane"></i>
+                    <h3>Flight Booking</h3>
+                    <p>Ticket booking ki tension chhodiye. Hum laate hain sabse sasti aur fastest flight deals.</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-delay="200">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventure Tours</h3>
+                    <p>Trekking, scuba diving ya sky diving? Hamare paas har adventure ke liye special plan hai.</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-delay="300">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Travel Insurance</h3>
+                    <p>Safar mein suraksha zaroori hai. Hamara insurance aapka aur aapke luggage ka poora dhyan rakhta hai.</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-delay="400">
+                    <i class="fas fa-car"></i>
+                    <h3>Rental Cars</h3>
+                    <p>Local city tour ke liye luxury aur budget cars, driver ke saath ya self-drive options.</p>
+                </div>
+                <div class="box" data-aos="zoom-in" data-aos-delay="500">
+                    <i class="fas fa-headset"></i>
+                    <h3>24/7 Support</h3>
+                    <p>Travel ke dauran kabhi bhi koi dikkat aaye, hamari team call par hamesha hazir hai.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. DESTINATIONS SECTION -->
+    <section class="destinations" id="destinations">
+        <div class="container">
+            <h1 class="heading" data-aos="fade-up">Popular <span>Destinations</span></h1>
+            <div class="grid-3">
+                <div class="dest-card" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?auto=format&fit=crop&w=500" alt="">
+                    <div class="dest-info">
+                        <h3>Paris, France</h3>
+                        <p>The city of love and iconic landmarks.</p>
+                        <span class="price">From ₹45,000</span>
+                    </div>
+                </div>
+                <div class="dest-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://www.outlooktravelmag.com/media/bali-1-1679062958.profileImage.2x-1536x884.webp" alt="">
+                    <div class="dest-info">
+                        <h3>Bali, Indonesia</h3>
+                        <p>Tropical paradise with stunning beaches.</p>
+                        <span class="price">From ₹32,000</span>
+                    </div>
+                </div>
+                <div class="dest-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?auto=format&fit=crop&w=500" alt="">
+                    <div class="dest-info">
+                        <h3>Goa, India</h3>
+                        <p>Sun, sand and beautiful shacks.</p>
+                        <span class="price">From ₹12,000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. PACKAGES SECTION -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <h1 class="heading" data-aos="fade-up">Our <span>Packages</span></h1>
+            <div class="grid-3">
+                <div class="pack-card" data-aos="flip-left">
+                    <div class="price-tag">₹15,000</div>
+                    <h3>Budget Starter</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 3 Days / 2 Nights</li>
+                        <li><i class="fas fa-check"></i> Standard Hotel</li>
+                        <li><i class="fas fa-check"></i> Group Tours</li>
+                        <li><i class="fas fa-times"></i> Food Not Included</li>
+                    </ul>
+                    <a href="#contact" class="btn-sm">Select Plan</a>
+                </div>
+                <div class="pack-card active" data-aos="flip-left" data-aos-delay="200">
+                    <div class="price-tag">₹35,000</div>
+                    <h3>Premium Experience</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 6 Days / 5 Nights</li>
+                        <li><i class="fas fa-check"></i> 4 Star Hotel</li>
+                        <li><i class="fas fa-check"></i> Private Cab</li>
+                        <li><i class="fas fa-check"></i> Daily Dinner Included</li>
+                    </ul>
+                    <a href="#contact" class="btn-sm">Select Plan</a>
+                </div>
+                <div class="pack-card" data-aos="flip-left" data-aos-delay="400">
+                    <div class="price-tag">₹65,000</div>
+                    <h3>Luxury Delight</h3>
+                    <ul>
+                        <li><i class="fas fa-check"></i> 10 Days / 9 Nights</li>
+                        <li><i class="fas fa-check"></i> 5 Star Resort</li>
+                        <li><i class="fas fa-check"></i> All Meals & Drinks</li>
+                        <li><i class="fas fa-check"></i> Personal Guide</li>
+                    </ul>
+                    <a href="#contact" class="btn-sm">Select Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. REVIEWS SECTION -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h1 class="heading" data-aos="fade-up">Clients <span>Reviews</span></h1>
+            <div class="grid-3">
+                <div class="rev-card" data-aos="zoom-in">
+                    <p>"Bohot hi accha experience raha! Team ne poora support kiya aur hotels bhi bohot badhiya thhe."</p>
+                    <div class="user">
+                        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="">
+                        <div>
+                            <h4>Amit Sharma</h4>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rev-card" data-aos="zoom-in" data-aos-delay="200">
+                    <p>"Bali ka package bohot hi sasta aur premium tha. Highly recommended for family trips!"</p>
+                    <div class="user">
+                        <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="">
+                        <div>
+                            <h4>Sneha Kapoor</h4>
+                            <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1 class="heading" data-aos="fade-up">Contact <span>Us</span></h1>
+            <div class="grid-2">
+                <form data-aos="fade-right">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Destination You Want to Visit">
+                    <textarea placeholder="Message..." rows="5"></textarea>
+                    <button type="submit" class="btn">Send Inquiry</button>
+                </form>
+                <div class="map" data-aos="fade-left">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14008.1148256634!2d77.206516!3d28.62892!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd37b741d0fd%3A0x39d609a48c4e8837!2sConnaught%20Place%2C%20New%20Delhi!5e0!3m2!1sen!2sin!4v1614350831201" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 TravelFlow | Built with ❤️ for Travelers.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
