@@ -1,10 +1,9 @@
 const CACHE_NAME = 'app-cache-v1';
 const CACHE_ASSETS = [
-    '/',
-    '/index.html',
-    '/style.css',
-    '/script.js',
-    '/images/logo.png'
+  '/Travel/',
+  '/Travel/index.html',
+  '/Travel/style.css',
+  '/Travel/script.js'
 ];
 self.addEventListener('install', event => {
     console.log('Service Worker: Installed');
@@ -44,4 +43,5 @@ self.addEventListener('fetch', event => {
         fetch(event.request).catch(() => caches.match(event.request))
     );
 });
+
 
