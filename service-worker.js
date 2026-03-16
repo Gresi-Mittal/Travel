@@ -53,3 +53,19 @@ self.addEventListener('fetch', event => {
     );
 
 });
+self.addEventListener('fetch', event => {
+  event.respondWith(
+    caches.match(event.request).then(response => {
+      if (response) {
+        return response;
+      }
+
+      return fetch(event.request).then(fetchRes => {
+        return caches.open(CACHE_NAME).then(cache => {
+          cache.put(event.request.url, fetchRes.clone());
+          return fetchRes;
+        });
+      });
+    })
+  );
+});
